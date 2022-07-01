@@ -61,9 +61,8 @@ a{
 }
 .maintext{
     position:absolute;
-    text-align:center;
     color:white;
-    max-width:80%;
+    width:80%;
     top:25%;
     padding-left:250px;
     font-family: 'Poppins', sans-serif; 
@@ -108,6 +107,7 @@ hr {
 .card-title{
     color:white;
     font-size: 20px;
+    padding-left:35px;
 }
 .intro{
     display: flex;
@@ -340,18 +340,17 @@ input{
 @media only screen and (max-width:900px)
 {
     *{
-        margin:0px;
-        padding:0px;
+        width:100%;
     }
     .navbar{
         display: flex;
         flex-direction: column;
-        padding-left:0px;
-        margin-left: 0px;   
-        width:80%;
+        padding-left:140px;   
+        width:100%;
     }
     .navbar ul{
         margin-top:20px;
+        margin-left:60px;
         display: flex;
         flex-direction: column;
     }
@@ -362,18 +361,17 @@ input{
         padding-left:0px;
     }
     .maintext{
+        padding-left:80px;
         margin-top:70px;
-        width: 85%;
-        height: 100%;
+        width: 100%;
     }
     .maintext h1{
         padding-top:10px;
-        padding-left:0px;
-        padding-right:60px;
+        padding-left:10px;
         text-align: center;
     }
     .card{
-        padding-left:0px;
+        padding-left:30px;
     }
     .secondText{
         padding-top:0px;
@@ -381,9 +379,13 @@ input{
         text-align: center;
     }
     .introItem{
-        width:75%;
-        height:10%;
+        width:360px;
         padding:0px;
+        margin-right:0px;
+    }
+    .features{
+        padding-left:30%;
+        padding-top:20px;
     }
     .clickOn{
         padding-left:0px;
@@ -393,12 +395,10 @@ input{
         flex-direction: column;
     }
     img{
-        width:80%;
+        width:60%;
     }
     .navbar ul li{
         margin-right:20px;
-        padding-right:-30px;
-        padding-bottom:-40px;
     }
     .weby a{
         font-size: 15px;
@@ -416,7 +416,8 @@ input{
         color:white;;
         bottom:0px;
         top:150px;
-        /* right:200px; */
+        padding-right:0px;
+        margin-right:0px;
     }
     .container{
         display:flex;
@@ -437,7 +438,7 @@ input{
     h1{
         font-size: 18px;
         width:250px;
-        margin-left:-100px;
+        /* margin-left:-100px; */
         padding-top:100px;
     }
     h3{
@@ -461,42 +462,50 @@ input{
     .about{
         padding-right:30px;
         padding-left:30px;
+        padding-top:20px;
     }
     .aboutus img{
         width:100%;
     }
     .about h1{
-        padding-left:160px;
+        padding-left:10px;
         padding-bottom:30px;
     }
     .contact{
         display:flex;
         flex-direction:column;
+        width:95%;
     }
-    /* form{
-        padding:0px;
-        margin-right:0px;
-    }
-    input{
-        margin:0px;
-        padding:0px;
-    }
-    .forming{
-        margin:0px;
-        padding:0px;
-    } */
     .contact{
         margin:10px;
     }
     .about-us{
         padding-left:180px;
         width:330px;
+        padding-top:20px;
     }
     .contactImg{
         width:100%;
     }
     .introItem{
-        width:100%;
+        width:95%;
         background-size: 100%;
+    }
+    .card-title{
+        padding-left:40px;
+    }
+    .center{
+        padding-left:-100px;
+    }
+    .navbar ul li:after{
+        display:block;
+        content: '';
+        border-bottom: solid black;  
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+    }
+    
+    .navbar ul li:hover:after { 
+        transform: scaleX(1); 
     }
 }
