@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.landing{
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+img.back{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:15px;
+    padding-left:60px;
+    padding-right:60px;
+    padding-bottom:10px;
+    background-color: white;
+}
+.weby a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+    letter-spacing: 1px;
+    font-family: 'Arima', cursive;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.maintext{
+    position:absolute;
+    text-align:center;
+    color:black;
+    max-width:80%;
+    top:25%;
+    padding-left:250px;
+    font-family: 'Arima', cursive;
+}
+.secondText{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2rem;
+}
+.imgCar{
+    width:50%;
+}
+.dataSet{
+    margin:30px;
+    color:white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Courgette', cursive;
+}
+.icon-add{
+    font-size:30px;
+    color:#bc6c25;
+    margin-right:1px;
+}
+.list-items{
+    background-image: url("https://wallpaperaccess.com/full/682226.jpg");
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left:50px;
+}
+.part-one{
+    display: flex;
+    flex-direction: column;
+}
+.list-items{
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btn-group{
+    padding-left:25%;
+    padding-bottom:2%;
+}
+.btngrp{
+    margin-top:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color: #0081a7;
+    color:white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    border:4px solid white;
+}
+.btngrp:hover{
+    background-color: white;
+    color:#0081a7;
+    /* border:1px solid black;  */
+}
+@media only screen and (max-width:900px)
+{
+    .maintext{
+        top:50%;
+        width:120%;
+        padding-left:50px;
+        margin-left:10px;
+    }
+    .imgCar{
+        width:100%;
+    }
+    .list-items{
+    background-image: url("https://wallpaperaccess.com/full/682226.jpg");
+    background-size: cover;
+    }
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+        padding-left:0px;
+        margin-left:0px;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        padding:0px;
+    }
+    .navbar{
+        text-align: center;
+        padding:5px;
+        margin:0px;
+    }
+}
