@@ -79,6 +79,11 @@ h1{
     font-family: 'Poppins', sans-serif; 
     padding-bottom:10px;
 }
+#about1{
+     background-image: url("https://colibriwp.com/blog/wp-content/uploads/2019/08/bg11.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+    }
 .aboutus img{
     width:35%;
     height:35%;
@@ -188,15 +193,18 @@ hr {
     justify-content:space-between;
 }
 .about{
-    background-color:black;
     text-align:center;
-    color:white;
+    color:black;
     padding-right:50px;
     padding-left:50px;
     padding-top:20px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    font-weight: 500;
+}
+.about-text{
+    font-weight: 500;
 }
 form{
     display:flex;
@@ -227,6 +235,7 @@ input{
     background-color: rgb(10, 10, 83);
     color:white;
     padding-bottom:30px;
+    font-size: 2rem;
 }
 .contact img{
     background-color:white;
@@ -286,10 +295,10 @@ h3{
 .social{
     font-size: 2rem;
     margin-left:10px;
-    color:white;
+    color:black;
 }
 .social:hover{
-    color:yellow;
+    color:green;
 }
 .firstEle{
     display: flex;
@@ -345,7 +354,7 @@ input{
     .navbar{
         display: flex;
         flex-direction: column;
-        padding-left:140px;   
+        padding-left:30%;   
         width:100%;
     }
     .navbar ul{
@@ -356,12 +365,13 @@ input{
     }
     .options{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         font-family: 'Poppins', sans-serif; 
-        padding-left:0px;
+        padding-left:80px;
     }
     .maintext{
-        padding-left:80px;
+        padding-left:15%;
         margin-top:70px;
         width: 100%;
     }
@@ -371,17 +381,15 @@ input{
         text-align: center;
     }
     .card{
-        padding-left:30px;
+        width:40%;
+    }
+    .grad{
+        width:35%;
     }
     .secondText{
         padding-top:0px;
         padding-left:0px;
         text-align: center;
-    }
-    .introItem{
-        width:360px;
-        padding:0px;
-        margin-right:0px;
     }
     .features{
         padding-left:30%;
@@ -492,7 +500,9 @@ input{
         background-size: 100%;
     }
     .card-title{
-        padding-left:40px;
+        padding-right:22%;
+        padding-left: 10px;
+        font-size: 12px;
     }
     .center{
         padding-left:-100px;
@@ -504,8 +514,18 @@ input{
         transform: scaleX(0);  
         transition: transform 250ms ease-in-out;
     }
-    
     .navbar ul li:hover:after { 
         transform: scaleX(1); 
+    }
+    .onClick{
+        text-decoration: none;
+        outline: none;
+    }
+    #about1{
+        background-size: 570%;
+    }
+    .contactus{
+        padding:0px;
+        margin:0px;
     }
 }
