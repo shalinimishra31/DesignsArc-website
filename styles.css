@@ -347,7 +347,7 @@ input{
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;  
 }
-@media only screen and (max-width:900px)
+@media only screen and (max-width:750px)
 {
     *{
         width:100%;
@@ -372,8 +372,8 @@ input{
     }
     .maintext{
         padding-left:15%;
-        margin-top:70px;
         width: 100%;
+        margin-top:30%;
     }
     .maintext h1{
         padding-top:10px;
@@ -525,7 +525,7 @@ input{
         width:50%;
     }
     #about1{
-        background-size: 570%;
+        background-size: 650%;
     }
     .contactus{
         padding:0px;
