@@ -89,7 +89,7 @@ h1{
     height:35%;
 }
 .grad{
-    width:70%;
+    width:150%;
     height:100%;
     border-radius: 50%;
     transition: 1s ease;
@@ -112,6 +112,7 @@ hr {
 .card-title{
     color:white;
     font-size: 20px;
+    width:150%;
     padding-left:35px;
 }
 .intro{
@@ -368,7 +369,6 @@ input{
         flex-direction: row;
         justify-content: center;
         font-family: 'Poppins', sans-serif; 
-        padding-left:20px;
     }
     .maintext{
         padding-left:15%;
@@ -380,11 +380,8 @@ input{
         padding-left:10px;
         text-align: center;
     }
-    .card{
-        width:40%;
-    }
     .grad{
-        width:35%;
+        width:70%;
     }
     .secondText{
         padding-top:0px;
@@ -492,8 +489,12 @@ input{
     .contactImg{
         width:100%;
     }
+    .back{
+        height:auto;
+    }
     .card-body{
         width:45%;
+        margin:0px;
     }
     .introItem{
         width:95%;
@@ -502,7 +503,8 @@ input{
     .card-title{
         padding-left:0px;
         font-size: 12px;
-        width:80%;
+        width:100px;
+        margin:0px;
     }
     .center{
         padding-left:-100px;
