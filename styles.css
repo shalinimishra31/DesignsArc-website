@@ -61,7 +61,7 @@ a{
 }
 .maintext{
     position:absolute;
-    color:white;
+    color:black;
     width:80%;
     top:25%;
     padding-left:250px;
@@ -110,7 +110,7 @@ hr {
     margin-bottom: 5px;
 }
 .card-title{
-    color:white;
+    color:black;
     font-size: 20px;
     padding-left:35px;
 }
